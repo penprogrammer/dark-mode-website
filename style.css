@@ -1,0 +1,46 @@
+[data-theme="dark"] {
+    background-color: black;
+}
+
+[data-theme="dark"] .navbar {
+    background-color: rgb(15, 15, 15) !important;
+    color: white !important;
+}
+
+[data-theme="dark"] .navbar-brand,
+.nav-icon {
+    color: white !important;
+}
+
+[data-theme="dark"] .accordion-item {
+    background-color: black;
+    color: white;
+}
+
+[data-theme="dark"] .accordion-button {
+    background-color: black;
+    color: white;
+}
+
+[data-theme="dark"] .accordion-button:not(.collapsed) {
+    background-color: rgb(15, 15, 15) !important;
+    color: white;
+}
+
+[data-theme="dark"] .accordion-button::after {
+    filter: brightness(100);
+}
+
+[data-theme="dark"] h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    color: white !important
+}
+
+[data-theme="dark"] .text-dark {
+    color: rgb(255, 255, 255) !important
+}
